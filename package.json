@@ -1,0 +1,16 @@
+{
+  "name": "vsmu",
+  "version": "0.1.0",
+  "description": "Vintage Story Mods Updater (Node.js, TUI ASCII).",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "setup": "node src/index.js --setup",
+    "update": "node src/index.js --once",
+    "lint": "node -c src/index.js && node -c src/updater.js && node -c src/tui.js && node -c src/config.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10"
+  }
+}
