@@ -1,3 +1,5 @@
+# dev version -> VSMU dont work acutally: 01/01/2026
+
 # VSMU
 Vintage Story Mods Updater (Node.js, TUI ASCII)
 
